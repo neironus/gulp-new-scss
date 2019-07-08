@@ -1,0 +1,45 @@
+// Семантические цвета
+
+$base-color:                  #364043;
+
+$gray:                        #808080;
+
+$body-bg-color:               #fff;
+
+$link-color:                  #41afd3;
+$link-color--hover:           darken($link-color, 5%);
+$link-color--active:          darken($link-color, 10%);
+
+
+// Базовая типографика
+
+$font-size--root:             10px;
+
+$font-size:                   16px; // rem(16px)
+$font-size--small:            80%;
+
+$font-family:                 'Noto Sans', sans-serif;
+$font-family--monospace:      SFMono-Regular, 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+
+$font-weight--100:            100;
+$font-weight--200:            200;
+$font-weight--300:            300;
+$font-weight--400:            400;
+$font-weight--500:            500;
+$font-weight--600:            600;
+$font-weight--700:            700;
+$font-weight--800:            800;
+$font-weight--900:            900;
+
+$font-weight:                 $font-weight--400;
+
+$line-height:                 normal;
+
+
+// Ширины
+
+$wrapper: (
+  'max-width': 1360px,
+  'min-width': 280px,
+  'padding': 0 15px
+);
